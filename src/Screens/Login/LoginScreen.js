@@ -39,6 +39,7 @@ class LoginScreen extends Component {
   }
   render() {
     const { navigation, loginLoading, loginError, registerToken } = this.props;
+    
     return (
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={{flex:1, alignItems:'center',justifyContent:'center'}}>
